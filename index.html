@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/0615dc2069.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Harsha Vajpayee</title>
+    </head>
+    <body>
+        <canvas></canvas>
+        <div class="container">
+            <div class="profile">
+              <div id="overlay">
+                <ul class="nav">
+                  <li class="list"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                  <li class="list"><a href="https://www.instagram.com/harsha__vajpayee/"  target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                  <li class="list"><a href="https://github.com/HarshaVajpayee"  target="_blank"><i class="fab fa-github"></i> Github</a></li>
+                  <li class="list"><a href="https://codepen.io/Coder_Harsha"  target="_blank"><i class="fab fa-codepen"></i> Codepen</a></li>
+                  <li class="list"><a href="https://www.linkedin.com/in/harsha-vajpayee"  target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                </ul>
+              </div>
+              <div class="top">
+                <div class="menu">
+                  <div class="bar click-top"></div>
+                  <div class="bar click-middle"></div>
+                  <div class="bar click-bottom"></div>
+                </div>
+              </div>
+              <div class="bottom">
+                <h1>Harsha Vajpayee</h1>
+                <h2>Front-end developer</h2>
+                <p><i class="fas fa-location-arrow"></i>India</p>
+                <div class="line"></div>
+                <button>message</button>
+              </div>
+            </div>
+        </div>
+        <div class="background"></div>
+        <div class="container-fluid" id="hide-on-mobile">
+          <h1 data-aos="zoom-in">About</h1>
+          <div class="row">
+            <div class="col-xs-6 col-sm-3">
+              <p><i class="fas fa-history"></i></p>
+              <h3>Fast</h3>
+              <p style="font-size: 1rem;">Fast load times and lag free interaction, my highest priority.</p>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+              <p><i class="fas fa-chalkboard"></i></p>
+              <h3>Responsive</h3>
+              <p style="font-size: 1rem;">My layouts will work on any device, big or small.</p>
+            </div>
+            <!-- Add clearfix for only the required viewport -->
+            <div class="clearfix visible-xs"></div>
+            <div class="col-xs-6 col-sm-3">
+              <p><i class="far fa-lightbulb"></i></p>
+              <h3>Intuitive</h3>
+              <p style="font-size: 1rem;">Strong preference for easy to use, intuitive UX/UI.</p>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+              <p><i class="fas fa-space-shuttle"></i></p>
+              <h3>Dynamic</h3>
+              <p style="font-size: 1rem;">Websites don't have to be static, I love making pages come to life.</p>
+            </div>
+          </div>
+          <div class="row" id="about">
+            <div class="col-sm col-md-6">
+              <h1 data-aos="fade-right">Who I Am?</h1>
+              <p data-aos="fade-right">I'm a Front-End Developer from India.<br>
+                Got Bachelor's Degree In Computer Science.<br>
+                I have serious passion for UI effects,
+                animations and creating intuitive,
+                dynamic user experiences.</p>
+                <p style="font-size: 2rem; color: rgb(7, 30, 236);" data-aos="fade-right">Let's Make Something Special</p>
+            </div>
+            <div class="col-sm col-md-6">
+              <img src="5.jpg" width="400px" data-aos="fade-left">
+            </div>
+          </div>
+        </div>
+
+        <main id="hide-on-mobile">
+          <section class="row1">
+            <h1 data-aos="zoom-in">Technical Skills</h1>
+            <div class="row" data-aos="fade-down-right">
+              <div class="col-sm-6 col-md-3">
+                <h4>Html5</h4>
+                <svg class="radial-progress" data-percentage="98" viewBox="0 0 80 80">
+                  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">98%</text>
+                </svg>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h4>CSS3</h4>
+                <svg class="radial-progress" data-percentage="90" viewBox="0 0 80 80">
+                  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                </svg>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h4>Javascript</h4>
+                <svg class="radial-progress" data-percentage="80" viewBox="0 0 80 80">
+                  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
+                </svg>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h4>jQuery</h4>
+                <svg class="radial-progress" data-percentage="84" viewBox="0 0 80 80">
+                  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">84%</text>
+                </svg>
+              </div>
+            </div>
+            <div class="row" data-aos="fade-down-left">
+              <div class="col-sm-6 col-md-3">
+                <h4>Reactjs</h4>
+                <svg class="radial-progress" data-percentage="65" viewBox="0 0 80 80">
+                  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">65%</text>
+                </svg>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h4>Json</h4>
+                <svg class="radial-progress" data-percentage="50" viewBox="0 0 80 80">
+                  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">50%</text>
+                </svg>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h4>Ajax</h4>
+                <svg class="radial-progress" data-percentage="50" viewBox="0 0 80 80">
+                  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">50%</text>
+                </svg>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h4>SCSS</h4>
+                <svg class="radial-progress" data-percentage="98" viewBox="0 0 80 80">
+                  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">98%</text>
+                </svg>
+              </div>
+            </div>
+            <div class="row" data-aos="fade-down-right">
+              <div class="col-sm-6 col-md-3">
+                <h4>UI Design</h4>
+                <svg class="radial-progress" data-percentage="95" viewBox="0 0 80 80">
+                  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">95%</text>
+                </svg>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h4>Photoshop</h4>
+                <svg class="radial-progress" data-percentage="50" viewBox="0 0 80 80">
+                  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">50%</text>
+                </svg>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h4>Sketch</h4>
+                <svg class="radial-progress" data-percentage="90" viewBox="0 0 80 80">
+                  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                </svg>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h4>Logo</h4>
+                <svg class="radial-progress" data-percentage="98" viewBox="0 0 80 80">
+                  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                  <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">98%</text>
+                </svg>
+              </div>
+            </div>
+          </section>
+        </main>
+
+        <!--hide-on-desktop-->
+        <div class="container-fluid" id="hide-on-desktop">
+          <h1 data-aos="zoom-in">About</h1>
+          <div class="row">
+            <div class="col-sm-3 col-md-6">
+              <p><i class="fas fa-history"></i></p>
+              <h3>Fast</h3>
+              <p style="font-size: 1rem;">Fast load times and lag free interaction, my highest priority.</p>
+            </div>
+            <div class="col-sm-3 col-md-6">
+              <p><i class="fas fa-chalkboard"></i></p>
+              <h3>Responsive</h3>
+              <p style="font-size: 1rem;">My layouts will work on any device, big or small.</p>
+            </div>
+          </div>
+            <!-- Add clearfix for only the required viewport -->
+            <div class="clearfix visible-xs"></div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-3">
+              <p><i class="far fa-lightbulb"></i></p>
+              <h3>Intuitive</h3>
+              <p style="font-size: 1rem;">Strong preference for easy to use, intuitive UX/UI.</p>
+            </div>
+            <div class="col-xs-6 col-sm-3">
+              <p><i class="fas fa-space-shuttle"></i></p>
+              <h3>Dynamic</h3>
+              <p style="font-size: 1rem;">Websites don't have to be static, I love making pages come to life.</p>
+            </div>
+            <div class="row" id="about">
+              <div class="col-sm col-md-6">
+                <h1 data-aos="fade-right">Who I Am?</h1>
+                <p data-aos="fade-right">I'm a Front-End Developer from India.<br>
+                  Got Bachelor's Degree In Computer Science.<br>
+                  I have serious passion for UI effects,
+                  animations and creating intuitive,
+                  dynamic user experiences.</p>
+                  <p style="font-size: 2rem; color: rgb(7, 30, 236);" data-aos="fade-right">Let's Make Something Special</p>
+              </div>
+              <div class="col-sm col-md-6">
+                <img src="5.jpg" width="400px" data-aos="fade-left">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section id="dont">
+          <h1 class="tech" data-aos="zoom-in">Technical Skills</h1>
+          <div id="page-wrap">
+            <div class="meter">
+              <span style="width: 98%"></span>
+            </div>
+            <h3>Html5</h3>
+            <div class="meter orange">
+              <span style="width: 90%"></span>
+            </div>
+            <h3>CSS3</h3>
+            <div class="meter red">
+              <span style="width: 80%"></span>
+            </div>
+            <h3>Javascript</h3>
+            <div class="meter blue">
+              <span style="width: 84%"><span></span></span>
+            </div>
+            <h3>jQuery</h3>
+            <div class="meter skyblue">
+              <span style="width: 65%"><span></span></span>
+            </div>
+            <h3>Reactjs</h3>
+            <div class="meter yellow">
+              <span style="width: 50%"><span></span></span>
+            </div>
+            <h3>JSON</h3>
+            <div class="meter oceanblue">
+              <span style="width: 50%"><span></span></span>
+            </div>
+            <h3>AJAX</h3>
+            <div class="meter lemon">
+              <span style="width: 98%"><span></span></span>
+            </div>
+            <h3>SCSS</h3>
+            <div class="meter pink">
+              <span style="width: 95%"><span></span></span>
+            </div>
+            <h3>UI Design</h3>
+            <div class="meter purple">
+              <span style="width: 50%"><span></span></span>
+            </div>
+            <h3>Photoshop</h3>
+            <div class="meter brown">
+              <span style="width: 90%"><span></span></span>
+            </div>
+            <h3>Sketch</h3>
+            <div class="meter dark">
+              <span style="width: 98%"><span></span></span>
+            </div>
+            <h3>Logo</h3>
+          </div>
+        </section>
+        
+        <div class="center" data-aos="flip-up">
+          <div class="wrapper">
+          
+              <h1 class="title">Contact first ☝️</h1>
+            
+              <form id="form" method="post">
+                <div class="form form__1">
+                  <label for="name" class="form__label">Full name</label>
+                  <input type="text" class="form__input" placeholder="" id="name" required>
+                </div>
+              
+                <div class="form form__2">
+                  <label for="email" class="form__label">Email address</label>
+                  <input type="email" class="form__input" placeholder="" id="email" required>
+                </div>
+              
+                <div class="form form__3">
+                  <label for="message" class="form__label">Your message</label>
+                  <input type="text" class="form__input" placeholder="" id="message" required>
+                </div>
+              
+                <button class="form__btn">
+                  <p><span class="form__btn--visible">Submit<i class="fas fa-arrow-right"></i>
+                  </span></p>
+                  <span class="form__btn--invisible">Message sent!</span>
+                </button>
+              </form>
+            
+                <div class="container-mail">
+                  <div class="mail">
+                    <div class="mail__back"></div>
+                    <div class="mail__top"></div>
+                    <div class="mail__letter">
+                      <div class="mail__letter-square">
+                      </div>
+                      <div class="mail__letter-lines">
+                      </div>
+                    </div>
+                    <div class="mail__left"></div>
+                    <div class="mail__right"></div>
+                    <div class="mail__bottom"></div>
+                  </div>
+                </div>
+            
+          </div>
+        </div>
+        <!-- JavaScript & jQuery -->
+      <script src="https://code.jquery.com/jquery-3.3.1.js"
+                integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                crossorigin="anonymous">
+      </script>
+      <script src="js/index.js"></script>
+        <script src="index.js"></script>
+        <script type="text/babel" src="babel.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+    </body>
+</html>
